@@ -27,6 +27,7 @@
 body {
     background-color: var(--neutral-5);
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -64,7 +65,7 @@ a:hover {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 260px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -195,14 +196,13 @@ a:hover {
         0px -3px 7px 1px rgba(0, 0, 0, 0.07);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 .nav-brand {
     font-weight: 450;
     text-decoration: none;
-    padding-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
     color: initial;
@@ -252,8 +252,9 @@ a:hover {
     font-size: 24px;
     outline: none;
     border-radius: 5px;
-    padding: 10px 5px;
+    padding: 10px;
     border: 0;
+    width: 93%;
 }
 
 #calculator {
